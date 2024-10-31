@@ -41,7 +41,7 @@ def preprocess_text(text):
 
 # Load the saved model and vectorizer
 
-with open("C:/Users/91776/Downloads/rf_model_compressed.joblib", 'rb') as model_file:
+with open("rf_model_compressed.joblib", 'rb') as model_file:
         loaded_model = joblib.load(model_file)
 
 with open("C:/Users/91776/Downloads/tfidf_vectorizer.joblib", 'rb') as vectorizer_file:
